@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom File Uploader | HTML, CSS & JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="upload.js" defer></script>
+</head>
+<body>
+    <div class="file-upload-container">
+        <!-- Accept only image files -->
+        <input type="file" name="files" id="files" accept="image/*" hidden multiple>
+        <input type="text" class="custom_input" name="custom_input" id="custom_input" readonly>
+        <button type="button" id="upload_btn">Upload</button>
+    </div>
+</body>
+</html>
